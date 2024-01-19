@@ -1,8 +1,50 @@
-# React + Vite
+# Porfolio
+Trabajo para conocer mas sobre mi perfil, habilidades y trabajos realizados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Porfolio Nicolas Viruel React + HTML + CSS (puro)
 
-Currently, two official plugins are available:
+## Nombre del proyecto: Porfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#####  Proyecto FrontEnd en el cual realizo el trabajo de mi propio Porfolio, utilizando tecnologias como REACT.js , HTML y sobre todo CSS (puro) sin ayuda de bibliotecas como bootstrap y poniendo a prueba mis habilidades.
+
+## Instalación ⚙️ 
+
+###### Este proyecto fue realizado con VITE y puedes instalar el proyecto desde npm:
+
+###### npm install
+
+###### Para ejecutarlo de forma local:
+
+###### npm run dev
+
+## Estructura del sitio :t-rex:
+
+###### - Client
+        - Src
+        - Assets
+        - Components
+        - app.jsx
+        - main.jsx
+###### - Server
+        - Controllers
+        - DataBase
+        - Routes
+        - app.js
+        - index.js
+
+
+## App deploy (en proceso)
+
+
+
+## Herramientas Utilizadas🛠️
+
+##### - Frontend
+###### 1. - React
+###### 2. - React-Dom
+###### 3. - React-Bootstrap
+###### 4. - Bootstrap
+###### 5. - Axios
+
+
+###### - Nicolas Viruel :baby_chick:
