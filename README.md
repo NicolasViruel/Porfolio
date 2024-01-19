@@ -1,7 +1,7 @@
-# Porfolio
+# Porfolio Nicolas Viruel
 Trabajo para conocer mas sobre mi perfil, habilidades y trabajos realizados.
 
-# Porfolio Nicolas Viruel React + HTML + CSS (puro)
+# Porfolio utilizando React + HTML + CSS (puro)
 
 ## Nombre del proyecto: Porfolio
 
@@ -25,12 +25,6 @@ Trabajo para conocer mas sobre mi perfil, habilidades y trabajos realizados.
         - Components
         - app.jsx
         - main.jsx
-###### - Server
-        - Controllers
-        - DataBase
-        - Routes
-        - app.js
-        - index.js
 
 
 ## App deploy (en proceso)
