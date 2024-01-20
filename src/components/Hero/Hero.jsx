@@ -36,7 +36,7 @@ const Hero = () => {
                 
                 <img src={perfil} className='perfil' alt="imagen de perfil" />
                 <div className='tech-icon-react'>
-                    <img src={nodejs} alt="nodejs" title="Node.js" />
+                    <img src={html} alt="html" title="html" />
                 </div>
             </div>
         <div>
