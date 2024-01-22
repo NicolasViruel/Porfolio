@@ -10,6 +10,8 @@ import typescrip from '../../assets/image/typescrip.svg'
 import html from '../../assets/image/w3_html5-icon.svg'
 import mongodb from '../../assets/image/mongodb-icon.svg'
 import css from '../../assets/image/w3_css-icon.svg'
+import firebase from '../../assets/image/firebase.svg'
+import git from '../../assets/image/git.svg'
 
 
 const Hero = () => {
@@ -28,21 +30,19 @@ const Hero = () => {
             
             <div>
                 
-                
-                <div className='tech-icon-react'>
-                    <img src={nodejs} alt="nodejs" title="Node.js" />
-                    
-                </div>
-                
+            <div className='tech-icon-react'>
+                <img src={firebase} alt="firebase" />
+            </div>
+    
                 <img src={perfil} className='perfil' alt="imagen de perfil" />
                 <div className='tech-icon-react'>
-                    <img src={html} alt="html" title="html" />
-                </div>
+                <img className='react' src={mongodb} alt="Logo React" />
+            </div>
             </div>
         <div>
-            <div className='tech-icon'>
+            {/* <div className='tech-icon'>
                 <img src={nest} alt="nestjs" />
-            </div>
+            </div> */}
             <div className='tech-icon'>
                 <img src={angular} alt="angular" />
             </div>
@@ -57,6 +57,23 @@ const Hero = () => {
             </div> */}
             <div className='tech-icon'>
                 <img className='javascript' src={javascript} alt="css" />
+            </div>
+        </div>
+        <div>
+            <div className='tech-icon'>
+                <img src={nodejs} alt="nodejs" title="Node.js" />
+            </div>
+            <div className='tech-icon'>
+                    <img src={nest} alt="nestjs" />
+                </div>
+            <div className='tech-icon-react'>
+                    <img src={html} alt="html" title="html" />
+                </div>
+            <div className='tech-icon'>
+                <img src={css} alt="css" />
+            </div>
+            <div className='tech-icon'>
+                <img src={git} alt="git" />
             </div>
         </div>
 
