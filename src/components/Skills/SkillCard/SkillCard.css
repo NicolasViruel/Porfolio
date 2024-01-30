@@ -80,23 +80,13 @@
         font-size: 0.9rem;
     }
 
-    .skills-card {
-        margin-left: 20px;
-    }
-
-    /* .skill-icon {
-        margin-left: 1rem;
-    } */
 
     
 }
 
 @media (max-width: 480px){
     .skills-card span {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
 
-    /* .skills-card {
-        margin-left: 20px;
-    } */
 }

@@ -4,9 +4,9 @@ import './SkillInfoCard.css'
 const SkillInfoCard = ( {heading, skills}) => {
   return (
       <div className='skills-info-card'>
-        <h5>{heading}</h5>
+        <h6>{heading}</h6>
 
-        <div className='skill-info-content'>
+        <div className='skills-info-content'>
             {/* {skills.map((item, index) => ( */}
             {skills && skills.map((item, index) => (
                 <React.Fragment key = { `skill_${index}` }>
