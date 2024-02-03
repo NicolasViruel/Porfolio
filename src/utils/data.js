@@ -45,7 +45,7 @@ export const WORK_EXPERIENCE = [
     {
         title: "Junior FullStak en SILICE.SI",
         date: "Noviembre 2023 - Presente",
-        responsibilties: [
+        responsabilities: [
             "Desarrollo Fullstack trabajando con JavaScript, React, Angular, Nest.js, Node.js, Docker, Microservicios",
             "Diseño y creacion de aplicaciones Web escalables y de alto rendimiento.",
             "Participé activamente en la fase de planificación y diseño de proyectos, garantizando la alineación con los objetivos del negocio y las mejores prácticas de desarrollo.",
@@ -55,7 +55,7 @@ export const WORK_EXPERIENCE = [
     {
         title: "Tutor Fullstack en Rolling Code",
         date: "Febrero 2023 - Presente",
-        responsibilties: [
+        responsabilities: [
             "he tenido el privilegio de trabajar en varios roles que han enriquecido mi conjunto de habilidades.",
             "Esta experiencia me ha permitido cultivar tanto mis habilidades técnicas como mis capacidades de comunicación, ya que interactúo diariamente con estudiantes con diversos niveles de experiencia.",
             "Con más de 1 añó de experiencia en la industria y un enfoque comprometido hacia el aprendizaje continuo,",
