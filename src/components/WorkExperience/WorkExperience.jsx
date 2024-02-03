@@ -16,7 +16,7 @@ const WorkExperience = () => {
     arrows: false,
     responsive: [
       {
-        breackpoint: 769,
+        breakpoint: 769,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -25,15 +25,23 @@ const WorkExperience = () => {
     ],
   };
 
+  const slideRight = () =>{
+    sliderRef.current.slickNext();
+  }
+
+  const slideLeft = () =>{
+    sliderRef.current.slickNext();
+  }
+
   return (
     <section className="experience-container">
       <h5>Experiencia Laboral</h5>
 
       <div className="experience-content">
-        <div className="arrow-right">
+        <div className="arrow-right" onClick={slideRight}>
           <span> &gt; </span>
         </div>
-        <div className="arrow-left">
+        <div className="arrow-left" onClick={slideLeft}>
           <span> &lt; </span>
         </div>
 
