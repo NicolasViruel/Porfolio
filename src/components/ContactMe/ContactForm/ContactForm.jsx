@@ -10,7 +10,7 @@ const ContactForm = () => {
             </div>
             
             <input type="text" name='email' placeholder='Email' />
-            <textarea name="message" type="text" placeholder='Mensaje' rows={3}/>
+            <textarea name="message" type="text" placeholder='Mensaje' rows={3} style={{ resize: 'none' }}/>
 
             <button>Enviar</button>
         </form>

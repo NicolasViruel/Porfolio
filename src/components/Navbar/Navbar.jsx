@@ -21,16 +21,16 @@ const Navbar = () => {
           <img className="logo" src={Logo} alt="" />
           <ul>
             <li>
-              <a className="menu-item">Inicio</a>
+              <a className="menu-item" href="#inicio">Inicio</a>
             </li>
             <li>
-              <a className="menu-item">Habilidades</a>
+              <a className="menu-item" href="#habilidades">Habilidades</a>
             </li>
             <li>
-              <a className="menu-item">Experiencia</a>
+              <a className="menu-item" href="#experiencia">Experiencia</a>
             </li>
             <li>
-              <a className="menu-item">Contact</a>
+              <a className="menu-item" href="#contacto">Contact</a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>

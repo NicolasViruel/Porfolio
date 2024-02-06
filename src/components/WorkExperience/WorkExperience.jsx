@@ -30,11 +30,11 @@ const WorkExperience = () => {
   }
 
   const slideLeft = () =>{
-    sliderRef.current.slickNext();
+    sliderRef.current.slickPrev();
   }
 
   return (
-    <section className="experience-container">
+    <section className="experience-container" id="experiencia" >
       <h5>Experiencia Laboral</h5>
 
       <div className="experience-content">

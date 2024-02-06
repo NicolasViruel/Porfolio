@@ -18,7 +18,7 @@ const Hero = () => {
 
 
   return (
-    <section className='hero-container'>
+    <section className='hero-container' id="inicio">
         <div className='hero-content'>
             <h2>Building Digital Experiences That Inspire</h2>
             <p>

@@ -1,13 +1,13 @@
 import React from 'react'
 import './ContactMe.css'
 import ConctactInfoCard from './ContactInfoCard/ConctactInfoCard'
-import mailIcon from '../../assets/mail.png';
-import gitIcon from '../../assets/github.png';
+import mailIcon from '../../assets/mail.svg';
+import gitIcon from '../../assets/github.svg';
 import ContactForm from './ContactForm/ContactForm';
 
 const ContactMe = () => {
   return (
-    <section className='contact-container'>
+    <section className='contact-container' id="contacto">
         <h5>Contactame</h5>
         <div className='contact-content'>
             <div style={{ flex: 1 }}>
