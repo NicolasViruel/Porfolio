@@ -25,6 +25,13 @@ form textarea {
     padding: 1rem; 
 }
 
+input.filled,
+textarea.filled {
+    background-color: white; /* Cambia el fondo a blanco cuando el campo tiene contenido */
+    color: black; /* Cambia el color del texto a negro cuando el campo tiene contenido */
+}
+
+
 form button {
     font-size: 1rem;
     font-weight: 500;
