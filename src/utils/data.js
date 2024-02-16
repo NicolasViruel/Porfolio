@@ -30,7 +30,7 @@ export const SKILLS = [
     },
     {
         title: "SoftSkills",
-        icon: "../src/assets/icon/amigos.svg",
+        icon: "../src/assets/amigos.png",
         skills: [
             { skill: "Trabajo en equipo", percentage: "80%" },
             { skill: "Comunicación", percentage: "90%" },
