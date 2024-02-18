@@ -20,10 +20,11 @@ const Hero = () => {
   return (
     <section className='hero-container' id="inicio">
         <div className='hero-content'>
-            <h2>Building Digital Experiences That Inspire</h2>
+            <h2>Construyendo Experiencias Digitales que Inspiren</h2>
             <p>
-                Passionate For Develop Full Stack | Transforming Ideas Into Seamless and
-                Visually Stunning Web Solutions
+                {/* Passionate For Develop Full Stack | Transforming Ideas Into Seamless and
+                Visually Stunning Web Solutions */}
+                Apasionado por desarrollar Full Stack | Transformando ideas en soluciones web fluidas y visualmente impresionantes
             </p>
         </div>
         <div className='hero-img'>

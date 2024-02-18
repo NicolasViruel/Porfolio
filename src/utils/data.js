@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "../src/assets/icon/front.svg",
+        icon: "../public/laboral.png",
         skills: [
             { skill: "HTML5", percentage: "80%" },
             { skill: "CSS3", percentage: "70%" },
@@ -12,7 +12,7 @@ export const SKILLS = [
     },
     {
         title: "Backend",
-        icon: "../src/assets/icon/backend.svg",
+        icon: "../public/engranajes.png",
         skills: [
             { skill: "Nest JS", percentage: "40%" },
             { skill: "Node JS", percentage: "60%" },
@@ -21,7 +21,7 @@ export const SKILLS = [
     },
     {
         title: "Database",
-        icon: "../src/assets/icon/database.svg",
+        icon: "../public/servidor.png",
         skills: [
             { skill: "MySQL", percentage: "40%" },
             { skill: "MongoDB", percentage: "50%" },
@@ -30,7 +30,7 @@ export const SKILLS = [
     },
     {
         title: "SoftSkills",
-        icon: "../src/assets/amigos.png",
+        icon: "../public/amigos.png",
         skills: [
             { skill: "Trabajo en equipo", percentage: "80%" },
             { skill: "Comunicación", percentage: "90%" },
