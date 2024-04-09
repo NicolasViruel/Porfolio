@@ -115,11 +115,13 @@
     .hero-content h2 {
         font-size: 3rem;
         line-height: 4rem;
+        margin-left: 15px;
     }
 
     .hero-content p {
         font-size: 0.9rem;
         line-height: 1,6rem;
+        margin-left: 15px;
     }
     
     .hero-img > div > img {

@@ -50,6 +50,12 @@ form button:hover{
 }
 
 
+@media (max-width: 1024px) {
+    form{
+        margin-right: 20px;
+    }
+}
+
 @media (max-width: 450px) {
     .name-container{
         flex-direction: column;
