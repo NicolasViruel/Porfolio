@@ -36,9 +36,6 @@ Trabajo para conocer mas sobre mi perfil, habilidades y trabajos realizados.
 ##### - Frontend
 ###### 1. - React
 ###### 2. - React-Dom
-###### 3. - React-Bootstrap
-###### 4. - Bootstrap
-###### 5. - Axios
 
 
 ###### - Nicolas Viruel :baby_chick:
