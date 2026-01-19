@@ -43,8 +43,26 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Junior FullStak en SILICE.SI",
-        date: "Noviembre 2023 - Presente",
+        title: "Desarrollador FullStack en Phinx Lab",
+        date: "Presente",
+        responsabilities: [
+            {
+                text: "BURAKO (Darwin): Desarrollo de juego digital con bots inteligentes implementados con IA. Encargado de la gestión completa del ciclo de desarrollo, incluyendo la preparación de releases y autogestión de pull requests.",
+                link: "https://burako.phinxlab.com/",
+                linkText: "Ver juego"
+            },
+            "Tecnologías utilizadas en BURAKO: Flutter, Node.js y TypeScript.",
+            "BA Aprende - Inscripciones BA: Mantenimiento e implementación de nuevos requerimientos para el Gobierno de la Ciudad de Buenos Aires.",
+            "Implementar nuevos desarrollos generando código de calidad y aplicando buenas prácticas.",
+            "Mantener y mejorar los módulos actuales del proyecto con refactorizaciones eficientes.",
+            "Resolver errores (BUG) reportados por el cliente de manera eficiente.",
+            "Optimizar tiempos de respuesta de endpoints y consultas a la base de datos.",
+            "Generar archivos de Test para la aprobación de nuevas implementaciones."
+        ]
+    },
+    {
+        title: "Junior FullStack en SILICE.SI",
+        date: "Noviembre 2023",
         responsabilities: [
             "Desarrollo Fullstack trabajando con JavaScript, React, Angular, Nest.js, Node.js, Docker, Microservicios",
             "Diseño y creacion de aplicaciones Web escalables y de alto rendimiento.",
@@ -70,12 +88,47 @@ export const WORK_EXPERIENCE = [
             // "Desarrollo de un sitio web para AMD Models, una agencia de modelaje.",
             // "Base de datos: Firebase.",
             "BEER - Cervezeria: Desarrollo de una plataforma para un bar que incluye funcionalidad de carrito de compras.",
-            "Red de Administrador y Login: Creación de una red de administrador para un bar u otro tipo de negocio. CRUD",,
+            "Red de Administrador y Login: Creación de una red de administrador para un bar u otro tipo de negocio. CRUD",
             // "Detalles específicos del proyecto no proporcionados.",
             "Route 66 - Agencia de Motos: Desarrollo de un sitio web para una agencia de motos.",
             "KangreBurgers Hamburguesas: Creación de una página web para un bar que se especializa en hamburguesas.",
             "Detalles específicos del proyecto no proporcionados.",
         ]
+    }
+]
+
+export const PROJECTS = [
+    {
+        title: "Route 66 - Agencia de Motos",
+        description: "Sitio web desarrollado para una agencia de motos con diseño moderno y responsivo.",
+        image: "/projects/Route66.png",
+        technologies: ["React", "CSS3", "JavaScript"],
+        link: "https://panda-route66.netlify.app",
+        type: "web"
+    },
+    {
+        title: "Portfolio Personal",
+        description: "Portfolio personal con diseño elegante y animaciones interactivas.",
+        image: "/projects/Fancy.png",
+        technologies: ["React", "CSS3", "Vite"],
+        link: "https://fancy-crostata-21596e.netlify.app/",
+        type: "web"
+    },
+    {
+        title: "Lista de Tareas",
+        description: "Aplicación web para gestionar tareas diarias con interfaz intuitiva.",
+        image: "/projects/TareasApp.png",
+        technologies: ["React", "CSS3", "LocalStorage"],
+        link: "https://lista-de-tareas-ty.netlify.app/",
+        type: "web"
+    },
+    {
+        title: "Juego de Supervivencia",
+        description: "Juego desarrollado con Pygame donde el personaje debe sobrevivir en un entorno desafiante.",
+        image: "/projects/Supervivencia.png",
+        technologies: ["Python", "Pygame"],
+        link: "https://github.com/NicolasViruel/Juego-de-Supervivencia",
+        type: "github"
     }
 ]
 

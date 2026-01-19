@@ -1,0 +1,115 @@
+.projects-container {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.projects-container > h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.projects-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-content .arrow-right,
+.projects-content .arrow-left {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 1.5px solid #6751b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6751b9;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: #130f2a;
+    transition: all 0.3s ease;
+}
+
+.projects-content .arrow-right:hover,
+.projects-content .arrow-left:hover {
+    background: #6751b9;
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.projects-content .arrow-right {
+    right: -1rem;
+}
+
+.projects-content .arrow-left {
+    left: -1rem;
+}
+
+.projects-content .slick-slider {
+    padding: 2rem 0;
+}
+
+.projects-content .slick-list {
+    padding: 0 !important;
+}
+
+.projects-content .slick-slide > div {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        padding: 5rem 0;
+    }
+
+    .projects-container > h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .projects-content {
+        padding: 0 20px;
+    }
+
+    .projects-content .arrow-right,
+    .projects-content .arrow-left {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .projects-content .arrow-right {
+        right: 10px;
+    }
+
+    .projects-content .arrow-left {
+        left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-content .arrow-right,
+    .projects-content .arrow-left {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    .projects-content .arrow-right {
+        right: 5px;
+    }
+
+    .projects-content .arrow-left {
+        left: 5px;
+    }
+}
+

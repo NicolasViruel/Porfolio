@@ -30,6 +30,9 @@ const Navbar = () => {
               <a className="menu-item" href="#experiencia">Experiencia</a>
             </li>
             <li>
+              <a className="menu-item" href="#proyectos">Proyectos</a>
+            </li>
+            <li>
               <a className="menu-item" href="#contacto">Contact</a>
             </li>
 

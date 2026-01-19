@@ -1,0 +1,128 @@
+.project-card {
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(103, 81, 185, 0.3);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #1e1642 0%, #2d2257 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6751b9;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.project-card h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    color: #fff;
+}
+
+.project-description {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #b8b8b8;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+    line-height: 1.5;
+}
+
+.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tech-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    background: rgba(103, 81, 185, 0.3);
+    border: 1px solid rgba(103, 81, 185, 0.5);
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.6rem;
+    color: #a99aeb;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(135deg, #6751b9 0%, #8b7bd8 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.project-link:hover {
+    background: linear-gradient(135deg, #8b7bd8 0%, #a99aeb 100%);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(103, 81, 185, 0.4);
+}
+
+.project-link-icon {
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        margin: 0 20px;
+    }
+
+    .project-image {
+        height: 150px;
+    }
+
+    .project-card h6 {
+        font-size: 1rem;
+    }
+
+    .project-description {
+        font-size: 0.8rem;
+    }
+
+    .tech-tag {
+        font-size: 0.65rem;
+    }
+
+    .project-link {
+        font-size: 0.8rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
