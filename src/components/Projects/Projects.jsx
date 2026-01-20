@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./Projects.css";
 import { PROJECTS } from "../../utils/data";
 import ProjectCard from "./ProjectCard/ProjectCard";

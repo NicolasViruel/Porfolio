@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './SkillCard.css'
 
 const SkillCard = ( { title, iconUrl, isActive, onClick} ) => {
@@ -14,6 +14,13 @@ const SkillCard = ( { title, iconUrl, isActive, onClick} ) => {
         
     </div>
   )
+}
+
+SkillCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  iconUrl: PropTypes.string.isRequired,
+  isActive: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired
 }
 
 export default SkillCard

@@ -1,7 +1,7 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './ExperienceCard.css'
 
-const ExperienceCard = ( {details }) => {
+const ExperienceCard = ( {details}) => {
   return (
     <div className='work-experience-card'>
         <h6>{details.title}</h6>
@@ -35,6 +35,23 @@ const ExperienceCard = ( {details }) => {
         </ul>
     </div>
   )
+}
+
+ExperienceCard.propTypes = {
+  details: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    responsabilities: PropTypes.arrayOf(
+      PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.shape({
+          text: PropTypes.string,
+          link: PropTypes.string,
+          linkText: PropTypes.string
+        })
+      ])
+    ).isRequired
+  }).isRequired
 }
 
 export default ExperienceCard

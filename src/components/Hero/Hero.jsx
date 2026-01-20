@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hero.css'
 import reacLogo from '../../assets/image/reactjs-icon.svg'
 import perfil from '../../assets/image/imagenPerfil.jpg'

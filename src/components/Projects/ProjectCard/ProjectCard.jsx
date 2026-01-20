@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './ProjectCard.css'
 
 const ProjectCard = ({ project }) => {
@@ -48,6 +48,17 @@ const ProjectCard = ({ project }) => {
         </a>
     </div>
   )
+}
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
+    link: PropTypes.string.isRequired,
+    type: PropTypes.oneOf(['web', 'github']).isRequired
+  }).isRequired
 }
 
 export default ProjectCard

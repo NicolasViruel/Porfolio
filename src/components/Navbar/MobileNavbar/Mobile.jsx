@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './Mobile.css'
 import Logo from "../../../assets/image/logo1.jpg"
 
@@ -34,6 +34,11 @@ const Mobile = ( {isOpen, toggleMenu}) => {
     </div>
     </>
   )
+}
+
+Mobile.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  toggleMenu: PropTypes.func.isRequired
 }
 
 export default Mobile
